@@ -1,7 +1,7 @@
 baseURL               = ""
-languageCode          = "zh-CN"
-title                 = "NavSide"
-theme                 = "navside"
+locale              = "zh-CN"
+title                 = "hugo-side"
+theme                 = "hugo-side"
 publishDir            = "public"
 
 disableKinds = ["taxonomy", "term"] # 忽略告警和不生成 category 和 tag 的页面
@@ -37,7 +37,7 @@ enableGitInfo         = true
     a51lack = "" #
 
 [params.footer]
-    copyright = '&copy; {year} Powered by [Hugo](https://gohugo.io/) & [NavSide](https://github.com/idevsig/navside)'
+    copyright = '&copy; {year} Powered by [Hugo](https://gohugo.io/) & [hugo-side](https://github.com/jetsung/hugo-side)'
 
 [markup.goldmark.renderer]
     unsafe = true # 忽略告警

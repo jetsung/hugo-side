@@ -1,7 +1,7 @@
 <div class="sidebar-menu flex-fill">
     <div class="sidebar-scroll">
         <div class="sidebar-menu-inner">
-            {{ with $.Site.Data.navsites }}
+            {{ with hugo.Data.navsites }}
             <ul>
                 {{ range $index, $_ := . }}
                 {{ if and .list (gt (len .list) 0) }}

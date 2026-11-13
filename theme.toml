@@ -1,13 +1,13 @@
-name = 'NavSide'
+name = 'hugo-side'
 license = 'Apache 2.0'
-licenselink = 'https://github.com/idevsig/navside/blob/main/LICENSE'
-description = 'NavSide theme'
+licenselink = 'https://github.com/jetsung/hugo-side/blob/main/LICENSE'
+description = 'hugo-side theme'
 
 # The home page of the theme, where the source can be found
-homepage = 'https://github.com/idevsig/navside'
+homepage = 'https://github.com/jetsung/hugo-side'
 
 # If you have a running demo of the theme
-demosite = 'https://navside.skiy.net'
+demosite = 'https://hugo-side.gcli.cn'
 
 # Taxonomy terms
 tags = ['navigation', 'light', 'dark' ]

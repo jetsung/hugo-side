@@ -1,7 +1,7 @@
 {{ $defaultLogo := $.Site.Params.Images.defaultLogo }}
 {{ $logosPath := $.Site.Params.Images.logosPath }}
 
-{{ range $index, $element := $.Site.Data.navsites }}
+{{ range $index, $element := hugo.Data.navsites }}
     {{ $hash_str := printf "%v-main-%v" $index .taxonomy | md5 }}
     {{/*  一级分类  */}}
     {{ partial "main/component/top.html" (dict "ctx" $element "hash" $hash_str ) }}
