@@ -1,6 +1,6 @@
-# NavSide
+# hugo-side
 
-> NavSide 是一个简洁、优雅且高效的 Hugo 网址导航主题
+> hugo-side 是一个简洁、优雅且高效的 [Hugo](https://gohugo.io/) 网址导航主题
 
 ## 特征
 
@@ -13,14 +13,14 @@
 
 ## 预览图
 
-![NavSide 主题手机版](screenshot-mobile.png)
+![hugo-side 主题手机版](screenshot-mobile.png)
 
-![NavSide 主题](screenshot.png)
+![hugo-side 主题](screenshot.png)
 
 ## 演示
 
 - 演示网站   
-  https://navside.ooos.top
+  https://hugo-side.gcli.cn
 - 本地演示   
 ```sh
 hugo serve --source=exampleSite
@@ -41,13 +41,13 @@ git init
 
 ```sh
 # 添加主题（未添加此主题时）
-git submodule add https://github.com/idevsig/navside.git themes/navside
+git submodule add https://github.com/jetsung/hugo-side.git themes/hugo-side
 
 # 首次使用（首次从 Git 拉取代码时）
 git submodule update --init --recursive
 
 # 拉取当前主题最新代码
-git submodule update --remote themes/navside
+git submodule update --remote themes/hugo-side
 
 # 拉取所有最新主题代码
 git submodule foreach git pull origin main
@@ -55,7 +55,7 @@ git submodule foreach git pull origin main
 
 3. 复制 `exampleSite`   
 ```sh
-cp -r themes/navside/exampleSite/* .
+cp -r themes/hugo-side/exampleSite/* .
 ```
 
 4. 设置数据
@@ -69,7 +69,7 @@ content
 - `friendlinks.yml` 格式：
 ```yaml
 - title: 杰森
-  url: https://i.jetsung.com/
+  url: https://jetsung.com/
   description: 个人网站    
 ```
 
@@ -77,7 +77,7 @@ content
 ```yaml
 - item: 主页
   icon: fas fa-blog
-  link: "https://i.jetsung.com"
+  link: "https://jetsung.com"
   target: _blank 
 
 - item: 源码
@@ -140,16 +140,10 @@ hugo build --minify
 
 8. *复制其它文件
 ```sh
-cp themes/navside/{.gitignore,.deploy.sh} . 
+cp themes/hugo-side/{.gitignore,.deploy.sh} . 
 ```
 
-## 仓库镜像
+## Mirrors
 
-- https://git.jetsung.com/idev/navside
-- https://framagit.org/idev/navside
-- https://gitcode.com/idev/navside
-- https://github.com/idevsig/navside
+[MyCode](https://git.jetsung.com/jetsung/hugo-side) ● [AtomGit](https://atomgit.com/jetsung/hugo-side) ● [GitHub](https://github.com/jetsung/hugo-side)
 
-## Author
-
-[Jetsung Chan](https://i.jetsung.com)

@@ -1,4 +1,4 @@
-{{ with $.Site.Data.headers }}
+{{ with hugo.Data.headers }}
 <ul class="navbar-nav site-menu nav-top">
     {{ $targetBlank := slice "new" "blank" "_blank" }} 
     {{ range . }}

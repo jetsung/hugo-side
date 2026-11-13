@@ -1,7 +1,7 @@
 baseURL               = "https://example.com"
-languageCode          = "zh-CN"
+locale              = "zh-CN"
 title                 = "爱开发导航"
-theme                 = "navside"
+theme                 = "hugo-side"
 themesDir             = "../.."
 publishDir            = "public"
 

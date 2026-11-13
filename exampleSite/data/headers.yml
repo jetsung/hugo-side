@@ -1,6 +1,6 @@
 - item: 本站主题
   icon: fab fa-ethereum
-  link: "https://github.com/idevsig/navside"
+  link: "https://github.com/jetsung/hugo-side"
   target: _blank
 
 - item: 爱开发
@@ -15,7 +15,7 @@
 
 - item: 主页
   icon: fas fa-blog
-  link: "https://i.jetsung.com"
+  link: "https://jetsung.com"
   target: _blank
 
 - item: 源码
@@ -27,6 +27,6 @@
     - name: GitHub
       url: "https://github.com/jetsung"
       target: _blank
-    - name: GitCode
-      url: "https://gitcode.com/jetsung"
+    - name: AtomGit
+      url: "https://atomgit.com/jetsung"
       target: _blank
